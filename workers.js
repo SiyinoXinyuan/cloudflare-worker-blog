@@ -16,9 +16,9 @@ const site_name = "心愿的记事薄";
 const site_desc = "一个用 CloudFlare Worker 搭建的博客";
 
 // 资源文件
-const highlight_css = "https://raw.githubusercontent.com/SiyinoXinyuan/cloudflare-worker-blog/master/src/css/highlight.js/github.css";
-const highlight_main = "https://raw.githubusercontent.com/SiyinoXinyuan/cloudflare-worker-blog/master/src/js/highlight.min.js";
-const highlight_pack = "https://raw.githubusercontent.com/SiyinoXinyuan/cloudflare-worker-blog/master/src/js/highlight.pack.js";
+const highlight_css = "https://chiruno.me/src/cf-worker/css/highlight.js/github.css";
+const highlight_main = "https://chiruno.me/src/cf-worker/js/highlight.min.js";
+const highlight_pack = "https://chiruno.me/src/cf-worker/js/highlight.pack.js";
 
 // Copyright
 const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/SiyinoXinyuan/cloudflare-worker-blog" target="_blank">Github</a>`;
