@@ -21,7 +21,7 @@ const highlight_main = "https://chiruno.me/src/cf-worker/js/highlight.min.js";
 const highlight_pack = "https://chiruno.me/src/cf-worker/js/highlight.pack.js";
 
 // Copyright
-const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/SiyinoXinyuan/cloudflare-worker-blog" target="_blank">Github</a>`;
+const copyright = `&copy; 2020 ${site_name} | <a href="https://github.com/SiyinoXinyuan/cloudflare-worker-blog" target="_blank">Github</a>`;
 
 /* 配置到此结束 */
 
@@ -49,6 +49,12 @@ var header = `
 		<script src="${highlight_main}"></script>
 		<script src="${highlight_pack}"></script>
 		<style type="text/css">.post-a {color: #000;text-decoration: none ! important;}.post-box {padding: 12px 20px 12px 20px;border-bottom: 1px solid rgba(0,0,0,0.07);cursor: pointer;border-left: 0px solid rgba(66, 66, 66, 0);transition-duration: 0.3s;}.post-box:hover {transition-duration: 0.3s;border-left: 5px solid rgba(66, 66, 66, 0.15);}.thread h2 {border-bottom: 1px solid rgb(238,238,238);padding-bottom: 10px;}.editor-preview pre, .editor-preview-side pre{padding: 0.5em;}.hljs{background: unset ! important;padding: 0px;}.CodeMirror{height: calc(100% - 320px);min-height: 360px;}.msgid{font-family:Consolas;}.tooltip {word-break: break-all;}h2 a{font-weight: 400;}body{font-family: '-apple-system','BlinkMacSystemFont','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol' ! important;font-weight: 400;}h2 a{color: #000;} h2 a:hover{color: #000; text-decoration: none;}.full-width{width: 100%;}.thread img{vertical-align:text-bottom ! important;max-width:100% ! important;margin-top:8px;margin-bottom:8px;}.thread table{display:block;width:100%;overflow:auto;margin-bottom:8px;}.thread table tr{background-color:#fff;border-top:1px solid #c6cbd1;}.thread table tr:nth-child(2n){background-color:#f6f8fa;}.thread table th,.thread table td{padding:6px 13px;border:1px solid #dfe2e5;font-size:14px;}.thread pre{margin-bottom:16px;}pre{border:none ! important;}blockquote{font-size:15px ! important;}</style>
+    <style tyle="text/css">
+       /* 设置滚动条的样式 */
+      ::-webkit-scrollbar{
+          width: 0;
+      }
+    </style>
 	</head>
   <body>
     <div class="container">
